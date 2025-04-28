@@ -2,94 +2,131 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SCR2</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
       background-color: #e6f5ea;
     }
-
     .email-container {
       max-width: 600px;
-      margin: 0 auto;
+      width: 90%;
+      margin: 20px auto;
       background-color: #ADEBB3;
-      padding: 30px;
+      padding: 20px;
       border-radius: 8px;
       background-image: url("SCR2.PNG");
       background-size: cover;
+      background-position: center;
       color: #1b1b1b;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-
     h2 {
-      font-size: 28px;
-      color: #98FB98;
+      font-size: 26px;
+      color: #2a9d8f;
       text-align: center;
       margin-top: 0;
     }
-
     .section {
       background-color: rgba(255, 255, 255, 0.85);
       padding: 15px;
       border-radius: 6px;
       margin: 15px 0;
     }
-
     .section h3 {
       color: #004d00;
       margin-top: 0;
+      font-size: 18px;
+      text-align: center;
     }
-
+    p, ul, li {
+      font-size: 15px;
+      color: #333333;
+      line-height: 1.6;
+    }
     .section ul {
       padding-left: 20px;
+      margin-top: 10px;
     }
-
     .button {
-      display: inline-block;
+      display: block;
+      margin: 30px auto;
       padding: 12px 25px;
       background-color: #28a745;
       color: white;
       text-decoration: none;
       border-radius: 6px;
-      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      max-width: 250px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+      border-radius: 8px;
+    }
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
       text-align: center;
     }
-
-    .signature {
-      margin-top: 20px;
-      font-style: italic;
-    }
-
     .footer {
       background-color: #f6f6f6;
+      padding: 20px;
       font-size: 14px;
-      color: #999999;
+      color: #666666;
       text-align: center;
-      margin-top: 30px;
+      border-top: 1px solid #dddddd;
+      border-radius: 0 0 8px 8px;
+      margin-top: 40px;
     }
-
     .footer a {
       color: black;
       text-decoration: none;
-      margin: 0 5px;
+      font-weight: bold;
     }
-
+    .footer p {
+      font-size: 12px;
+      color: #999999;
+      margin: 5px 0 0;
+    }
     .disclaimer {
       font-size: 12px;
-      color: #555;
+      color: #555555;
       text-align: center;
       margin-top: 20px;
+    }
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 22px;
+      }
+      .section h3 {
+        font-size: 16px;
+      }
+      p, ul, li {
+        font-size: 14px;
+      }
+      .button {
+        width: 90%;
+        font-size: 15px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="email-container">
-    <img src="logo.png" alt="KESDEE Logo" style="max-width: 150px; display: block; margin: 0 auto 20px;">
-    <h2>Get Exam-Ready for the SCR Certification - With the Right Prep!</h2>
+    <img src="logo.png" alt="KESDEE Logo">
+
+    <h2>Get Exam-Ready for the SCR Certification – With the Right Prep!</h2>
 
     <div class="section">
-      <p>The GARP SCR certification can significantly enhance your career in sustainability and climate risk - but success requires the right preparation.</p>
+      <p>The GARP SCR certification can significantly enhance your career in sustainability and climate risk — but success requires the right preparation.</p>
       <p>That's where we come in. KESDEE offers expertly developed materials to help you prepare, practice, and pass the exam confidently.</p>
     </div>
 
@@ -118,13 +155,13 @@
       <p>Ideal for risk professionals, ESG analysts, finance experts, and anyone looking to break into the sustainability field with a globally respected credential.</p>
     </div>
 
-    <p style="text-align: center;"><a href="#" class="button">Explore the Course</a></p>
+    <a href="#" class="button">Explore the Course</a>
 
-    <p class="signature" style="text-align: Right;"> - Best regards,<br/>KESDEE INC</p>
+    <p class="signature">- Best regards,<br/>KESDEE INC</p>
 
     <div class="footer">
       <a href="http://www.kesdee.com">www.kesdee.com</a> | <a href="mailto:info@kesdee.com">info@kesdee.com</a>
-      <p style="font-size: 12px; color: #999; margin-top: 20px;">&copy;2025 KESDEE Inc. All rights reserved.</p>
+      <p>&copy; 2025 KESDEE Inc. All rights reserved.</p>
     </div>
   </div>
 </body>
